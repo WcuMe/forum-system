@@ -24,7 +24,6 @@
         </ul>
     </div>
 </nav>
-
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -45,7 +44,6 @@
                     </c:if>
                 </div>
             </div>
-
             <div class="panel panel-success">
                 <div class="panel-heading">回复列表</div>
                 <div class="panel-body">
@@ -70,7 +68,6 @@
                     </c:choose>
                 </div>
             </div>
-
             <div class="panel panel-info">
                 <div class="panel-heading">发表评论</div>
                 <div class="panel-body">
@@ -83,7 +80,6 @@
                     </form>
                 </div>
             </div>
-
             <a href="/post/list" class="btn btn-default">返回列表</a>
         </div>
     </div>
