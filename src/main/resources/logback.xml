@@ -6,6 +6,7 @@
         </encoder>
     </appender>
 
+
     <logger name="com.forum" level="DEBUG"/>
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.mybatis" level="DEBUG"/>
