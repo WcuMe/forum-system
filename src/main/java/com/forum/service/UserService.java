@@ -1,10 +1,12 @@
 package com.forum.service;
 
+
 import com.forum.mapper.UserMapper;
 import com.forum.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
 
 @Service
 public class UserService {
@@ -15,6 +17,7 @@ public class UserService {
     public User login(String username, String password) {
         return userMapper.login(username, password);
     }
+
 
     public User getUserById(Long id) {
         return userMapper.selectById(id);

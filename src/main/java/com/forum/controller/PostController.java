@@ -17,6 +17,7 @@ import java.util.List;
 @RequestMapping("/post")
 public class PostController {
 
+
     @Autowired
     private PostService postService;
 
@@ -52,6 +53,7 @@ public class PostController {
         }
         return "post/add";
     }
+
 
     @PostMapping("/add")
     public String add(Post post, HttpSession session) {

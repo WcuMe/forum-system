@@ -1,5 +1,6 @@
 package com.forum.controller;
 
+
 import com.forum.model.Reply;
 import com.forum.model.User;
 import com.forum.service.ReplyService;
@@ -9,12 +10,15 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 
+
 @Controller
 @RequestMapping("/reply")
 public class ReplyController {
 
+
     @Autowired
     private ReplyService replyService;
+
 
     @PostMapping("/add")
     public String add(Reply reply, HttpSession session) {
